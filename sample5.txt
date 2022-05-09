@@ -1,0 +1,68 @@
+1    // Load 0
+0
+14   // CopyToX
+4    // LoadIdxX 32 (load from A-Z table) 
+32
+21   // JumpIfEqual 12 
+12
+9    // Put 2 (output as char)
+2
+25   // IncX
+20   // Jump 3
+3
+1    // Load 0
+0
+16   // CopyToY
+5    // LoadIdxY 59 (load from 1-10 table)
+60
+21   // JumpIfEqual 27
+27
+9    // Put 1 (output as int)
+1
+1    // Load 1  (because no IncY instruction)
+1
+11   // AddY
+16   // CopyToY
+20   // Jump 15
+15
+1    // Print newline
+10
+9
+2
+50   // End
+40   // Data: bunny followed by netID
+92
+95
+95
+47
+41
+13
+10
+40
+62
+39
+46
+39
+60
+41
+13
+10
+40
+34
+41
+95
+40
+34
+41
+67
+83
+45
+0
+4    // Data NetID
+3
+4
+8
+0
+
+.1000
+30
